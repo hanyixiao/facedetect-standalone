@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "iomem.h": "c",
+        "plic.h": "c"
+    }
+}

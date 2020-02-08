@@ -1,0 +1,17 @@
+{
+    "name": "kendryte/k210-standalone",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop",
+		"kendryte/ai_image": "develop",
+		"kendryte/w25qxx-standalone-driver": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+	"header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}
